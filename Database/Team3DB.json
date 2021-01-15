@@ -1,0 +1,595 @@
+[{
+  "_id": {
+    "$oid": "5f6bd7156b313826e43629e6"
+  },
+  "productId": "R1ABC",
+  "productName": "RF28R6301SR",
+  "productPrice": 1099.49,
+  "productDescription": "3-Door Stainless Steel Refrigerator",
+  "productBrand": "Samsung",
+  "productUPC": "r1",
+  "productType": "Refrigerator"
+},{
+  "_id": {
+    "$oid": "5f6bd7546b313826e43629e7"
+  },
+  "productId": "M1ABC",
+  "productName": "JES1097SMSS ",
+  "productPrice": 150.99,
+  "productDescription": " 0.9 Cu.Ft. Countertop Microwave",
+  "productBrand": "GE",
+  "productUPC": "m1",
+  "productType": "Microwave"
+},{
+  "_id": {
+    "$oid": "5f6bd7836b313826e43629e8"
+  },
+  "productId": "AF1ABC",
+  "productName": "AF100",
+  "productPrice": 200.59,
+  "productDescription": "4 Quart Capacity Air Fryer",
+  "productBrand": "Ninja",
+  "productUPC": "af1",
+  "productType": "Air Fryer"
+},{
+  "_id": {
+    "$oid": "5f6bd7ad6b313826e43629e9"
+  },
+  "productId": "S1ABC",
+  "productName": "LDG4315",
+  "productPrice": 1499.49,
+  "productDescription": "6.9 cu. ft. Gas Double Oven Range",
+  "productBrand": "LG",
+  "productUPC": "s1",
+  "productType": "Stove"
+},{
+  "_id": {
+    "$oid": "5f7b67fd03f87d3760248717"
+  },
+  "productId": "B1ABC",
+  "productName": "NBF10500",
+  "productPrice": 149.49,
+  "productDescription": "1200W Blender with Single Serve Cups",
+  "productBrand": "NutriBullet",
+  "productUPC": "b1",
+  "productType": "Blender"
+},{
+  "_id": {
+    "$oid": "5f7b684b03f87d3760248718"
+  },
+  "productId": "C1ABC",
+  "productName": "MC54617099",
+  "productPrice": 49.49,
+  "productDescription": "12 Cup Switch Coffee Maker",
+  "productBrand": "Mr Coffee",
+  "productUPC": "c1",
+  "productType": "Coffee Maker"
+},{
+  "_id": {
+    "$oid": "5f7b958c7cc5ae0b2c8bbba9"
+  },
+  "productId": "M2ABC",
+  "productName": "EM720CPN",
+  "productPrice": 179.99,
+  "productDescription": "700 Watt 0.7 cu. ft. Microwave Oven",
+  "productBrand": "Black and Decker",
+  "productUPC": "m2",
+  "productType": "Microwave"
+},{
+  "_id": {
+    "$oid": "5f7b95ce7cc5ae0b2c8bbbaa"
+  },
+  "productId": "R2ABC",
+  "productName": "LSXS26326S",
+  "productPrice": 2099.49,
+  "productDescription": "26 Cu.Ft. Side-By-Side Refrigerator",
+  "productBrand": "LG",
+  "productUPC": "r2",
+  "productType": "Refrigerator"
+},{
+  "_id": {
+    "$oid": "5f7b97067cc5ae0b2c8bbbab"
+  },
+  "productId": "AF2ABC",
+  "productName": "FAF56420",
+  "productPrice": 200.59,
+  "productDescription": "3.2 Quart Oil-Less Air Fryer",
+  "productBrand": "Faberware",
+  "productUPC": "af2",
+  "productType": "Air Fryer"
+},{
+  "_id": {
+    "$oid": "5f7b97367cc5ae0b2c8bbbac"
+  },
+  "productId": "S2ABC",
+  "productName": "NX58-5600",
+  "productPrice": 2499.49,
+  "productDescription": "5.8 Cu.Ft. Stainless Steel Gas Range",
+  "productBrand": "Samsung",
+  "productUPC": "s2",
+  "productType": "Stove"
+},{
+  "_id": {
+    "$oid": "5f7b97627cc5ae0b2c8bbbad"
+  },
+  "productId": "B2ABC",
+  "productName": "HB56207",
+  "productPrice": 249.49,
+  "productDescription": "Digital Smoothie Blender 700W Black",
+  "productBrand": "Hamilton Beach",
+  "productUPC": "b2",
+  "productType": "Blender"
+},{
+  "_id": {
+    "$oid": "5f7b97897cc5ae0b2c8bbbae"
+  },
+  "productId": "C2ABC",
+  "productName": "KSS65839392",
+  "productPrice": 49.49,
+  "productDescription": "K-Duo™ Single Serve Coffee Maker",
+  "productBrand": "Keurig",
+  "productUPC": "c2",
+  "productType": "Coffee Maker"
+},{
+  "_id": {
+    "$oid": "5f90c41b1b4fcf50c4368cc1"
+  },
+  "productId": "R3ABC",
+  "productName": "LRMVC2306D",
+  "productPrice": 2099.49,
+  "productDescription": "23 Cu.Ft. wi-fi Enabled Refrigertor",
+  "productBrand": "LG",
+  "productUPC": "r3",
+  "productType": "Refrigerator"
+},{
+  "_id": {
+    "$oid": "5f90c4e61b4fcf50c4368cc3"
+  },
+  "productId": "M3ABC",
+  "productName": "EM720CPN",
+  "productPrice": 250.99,
+  "productDescription": "0.7 Cu. Ft. 700W Microwave Oven",
+  "productBrand": "Black + Decker",
+  "productUPC": "m3",
+  "productType": "Microwave"
+},{
+  "_id": {
+    "$oid": "5f90c5211b4fcf50c4368cc4"
+  },
+  "productId": "AF3ABC",
+  "productName": "EK2559 ",
+  "productPrice": 100.59,
+  "productDescription": "XL Digital Hot Air Fryer, 4.5 Litre",
+  "productBrand": "Salter",
+  "productUPC": "af3",
+  "productType": "Air Fryer"
+},{
+  "_id": {
+    "$oid": "5f90c5561b4fcf50c4368cc5"
+  },
+  "productId": "S3ABC",
+  "productName": "Nx58h9500ws",
+  "productPrice": 1099.49,
+  "productDescription": "Slide-In Gas Range in Stainless Steel",
+  "productBrand": "Samsung",
+  "productUPC": "s3",
+  "productType": "Stove"
+},{
+  "_id": {
+    "$oid": "5f90c5801b4fcf50c4368cc6"
+  },
+  "productId": "B3ABC",
+  "productName": "BT7254658",
+  "productPrice": 49.49,
+  "productDescription": "Powerful 1800 Watt Blender",
+  "productBrand": "Blendtec",
+  "productUPC": "b3",
+  "productType": "Blender"
+},{
+  "_id": {
+    "$oid": "5f90c5aa1b4fcf50c4368cc7"
+  },
+  "productId": "C3ABC",
+  "productName": "CM4638392",
+  "productPrice": 59.49,
+  "productDescription": "Alexa Smart Coffee Maker 12 Cup",
+  "productBrand": "Hamilton Beach",
+  "productUPC": "c3",
+  "productType": "Coffee Maker"
+},{
+  "_id": {
+    "$oid": "5f90c5de1b4fcf50c4368cc8"
+  },
+  "productId": "M4ABC",
+  "productName": "NN-SN966SR",
+  "productPrice": 199.99,
+  "productDescription": "2.2 Cu. Ft. Microwave",
+  "productBrand": "Panasonic",
+  "productUPC": "m4",
+  "productType": "Microwave"
+},{
+  "_id": {
+    "$oid": "5f90c60c1b4fcf50c4368cc9"
+  },
+  "productId": "R4ABC",
+  "productName": "RF7593723",
+  "productPrice": 2499.49,
+  "productDescription": "Compact Silver 2- Door Refrigerator",
+  "productBrand": "GE",
+  "productUPC": "r4",
+  "productType": "Refrigerator"
+},{
+  "_id": {
+    "$oid": "5f90c7221b4fcf50c4368cca"
+  },
+  "productId": "AF4ABC",
+  "productName": "AF47382381",
+  "productPrice": 199.49,
+  "productDescription": "Air Fryer with Nonstick Basket",
+  "productBrand": "Cosori",
+  "productUPC": "af4",
+  "productType": "Air Fryer"
+},{
+  "_id": {
+    "$oid": "5f90c7771b4fcf50c4368ccb"
+  },
+  "productId": "S4ABC",
+  "productName": "AK300102",
+  "productPrice": 1299.49,
+  "productDescription": "30\" Professional Range",
+  "productBrand": "NXR",
+  "productUPC": "s4",
+  "productType": "Stove"
+},{
+  "_id": {
+    "$oid": "5f90c79f1b4fcf50c4368ccc"
+  },
+  "productId": "B4ABC",
+  "productName": "BL2010",
+  "productPrice": 49.49,
+  "productDescription": "550W 5-Speed Blender",
+  "productBrand": "Black + Decker",
+  "productUPC": "b4",
+  "productType": "Blender"
+},{
+  "_id": {
+    "$oid": "5f90c7b91b4fcf50c4368ccd"
+  },
+  "productId": "C4ABC",
+  "productName": "HBC573913",
+  "productPrice": 59.49,
+  "productDescription": "FlexBrew 2-Way Coffee Maker",
+  "productBrand": "Hamilton Beach",
+  "productUPC": "c4",
+  "productType": "Coffee Maker"
+},{
+  "_id": {
+    "$oid": "5f92fecdb97f4d336ca72c55"
+  },
+  "productId": "R5ABC",
+  "productName": "LRDCS2603D",
+  "productPrice": 1699.49,
+  "productDescription": "26 Cu.Ft. Refrigerator with Ice Maker",
+  "productBrand": "LG",
+  "productUPC": "r5",
+  "productType": "Refrigerator"
+},{
+  "_id": {
+    "$oid": "5f92ffc2b97f4d336ca72c56"
+  },
+  "productId": "M5ABC",
+  "productName": "ME19R7041FS",
+  "productPrice": 349.99,
+  "productDescription": "1.9 Cu.Ft. Fingerprint Resistant Microwave",
+  "productBrand": "Samsung",
+  "productUPC": "m5",
+  "productType": "Microwave"
+},{
+  "_id": {
+    "$oid": "5f930029b97f4d336ca72c57"
+  },
+  "productId": "AF5ABC",
+  "productName": "NS-AF53DSS0",
+  "productPrice": 200.59,
+  "productDescription": "5-qt. Digital Air Fryer ",
+  "productBrand": "Insignia",
+  "productUPC": "af5",
+  "productType": "Air Fryer"
+},{
+  "_id": {
+    "$oid": "5f9301d5b97f4d336ca72c58"
+  },
+  "productId": "S5ABC",
+  "productName": "NE59R4321SS",
+  "productPrice": 719.99,
+  "productDescription": "5.9 Cu.Ft. Freestanding Range",
+  "productBrand": "Samsung",
+  "productUPC": "s5",
+  "productType": "Stove"
+},{
+  "_id": {
+    "$oid": "5f93025eb97f4d336ca72c59"
+  },
+  "productId": "B5ABC",
+  "productName": "MB50200",
+  "productPrice": 61.99,
+  "productDescription": "Magic Bullet Kitchen Express",
+  "productBrand": "Magic Bullet",
+  "productUPC": "b5",
+  "productType": "Blender"
+},{
+  "_id": {
+    "$oid": "5f93029fb97f4d336ca72c5a"
+  },
+  "productId": "C5ABC",
+  "productName": "BNV560BLK1BUC1",
+  "productPrice": 164.96,
+  "productDescription": "Coffee Maker with Espresso Machine",
+  "productBrand": "Nespresso",
+  "productUPC": "c5",
+  "productType": "Coffee Maker"
+},{
+  "_id": {
+    "$oid": "5f93080db97f4d336ca72c5b"
+  },
+  "productId": "R6ABC",
+  "productName": "NS-RBM92BK9",
+  "productPrice": 424.99,
+  "productDescription": "9.2 Cu. Ft. Bottom-Freezer Refrigerator",
+  "productBrand": "Insignia",
+  "productUPC": "r6",
+  "productType": "Refrigerator"
+},{
+  "_id": {
+    "$oid": "5f930913b97f4d336ca72c5c"
+  },
+  "productId": "M6ABC",
+  "productName": "AMV2307PFS",
+  "productPrice": 189.99,
+  "productDescription": "1.6 Cu. Ft. Over-the-Range Microwave",
+  "productBrand": "Amana",
+  "productUPC": "m6",
+  "productType": "Microwave"
+},{
+  "_id": {
+    "$oid": "5f9309a7b97f4d336ca72c5d"
+  },
+  "productId": "AF6ABC",
+  "productName": "90088",
+  "productPrice": 69.99,
+  "productDescription": "8-qt. Touchscreen Air Fryer ",
+  "productBrand": "Bella",
+  "productUPC": "af6",
+  "productType": "Air Fryer"
+},{
+  "_id": {
+    "$oid": "5f930a3ab97f4d336ca72c5e"
+  },
+  "productId": "S6ABC",
+  "productName": "AER6303MFS",
+  "productPrice": 449.99,
+  "productDescription": "4.8 Cu. Ft. Freestanding Electric Range",
+  "productBrand": "Amana",
+  "productUPC": "s6",
+  "productType": "Stove"
+},{
+  "_id": {
+    "$oid": "5f930a79b97f4d336ca72c5f"
+  },
+  "productId": "B6ABC",
+  "productName": "BL456",
+  "productPrice": 149.49,
+  "productDescription": "Single Serve Blender",
+  "productBrand": "Ninja",
+  "productUPC": "b6",
+  "productType": "Blender"
+},{
+  "_id": {
+    "$oid": "5f930ab6b97f4d336ca72c60"
+  },
+  "productId": "C6ABC",
+  "productName": "5000350119",
+  "productPrice": 149.49,
+  "productDescription": " K-Slim Single-Serve K-Cup Pod",
+  "productBrand": "Keurig",
+  "productUPC": "c6",
+  "productType": "Coffee Maker"
+},{
+  "_id": {
+    "$oid": "5f930b64b97f4d336ca72c61"
+  },
+  "productId": "R7ABC",
+  "productName": "WRB322DMBM",
+  "productPrice": 1599.49,
+  "productDescription": "21.9 Cu.Ft. Bottom-Freezer Refrigerator",
+  "productBrand": "Whirlpool",
+  "productUPC": "r7",
+  "productType": "Refrigerator"
+},{
+  "_id": {
+    "$oid": "5f930b96b97f4d336ca72c62"
+  },
+  "productId": "M7ABC",
+  "productName": "JVM3160DFCC",
+  "productPrice": 250.99,
+  "productDescription": "1.6 Cu. Ft. Over-the-Range Microwave",
+  "productBrand": "GE",
+  "productUPC": "m7",
+  "productType": "Microwave"
+},{
+  "_id": {
+    "$oid": "5f930bcdb97f4d336ca72c63"
+  },
+  "productId": "AF7ABC",
+  "productName": "SM-AIR-1802",
+  "productPrice": 34.99,
+  "productDescription": "3.2L Digital Air Fryer",
+  "productBrand": "Emerald",
+  "productUPC": "af7",
+  "productType": "Air Fryer"
+},{
+  "_id": {
+    "$oid": "5f930d80b97f4d336ca72c64"
+  },
+  "productId": "S7ABC",
+  "productName": "WFE525S0JS",
+  "productPrice": 719.99,
+  "productDescription": "5.3 Cu.Ft. Range with Self-Cleaning",
+  "productBrand": "Whirlpool",
+  "productUPC": "s7",
+  "productType": "Stove"
+},{
+  "_id": {
+    "$oid": "5f930dc8b97f4d336ca72c65"
+  },
+  "productId": "B7ABC",
+  "productName": "BJE200XL",
+  "productPrice": 99.49,
+  "productDescription": "Juice Fountain Compact Electric Juicer",
+  "productBrand": "Breville",
+  "productUPC": "b7",
+  "productType": "Blender"
+},{
+  "_id": {
+    "$oid": "5f930e0cb97f4d336ca72c66"
+  },
+  "productId": "C7ABC",
+  "productName": "90071",
+  "productPrice": 19.49,
+  "productDescription": "Pro Series 5-Cup Coffeemaker",
+  "productBrand": "Bella",
+  "productUPC": "c7",
+  "productType": "Coffee Maker"
+},{
+  "_id": {
+    "$oid": "5f930ec3b97f4d336ca72c67"
+  },
+  "productId": "R8ABC",
+  "productName": "B36CL80ENS",
+  "productPrice": 3099.49,
+  "productDescription": "20.5 Cu.Ft. 4-Door Refrigerator",
+  "productBrand": "Bosch",
+  "productUPC": "r8",
+  "productType": "Refrigerator"
+},{
+  "_id": {
+    "$oid": "5f930f24b97f4d336ca72c68"
+  },
+  "productId": "M8ABC",
+  "productName": "LMV1831BD",
+  "productPrice": 250.99,
+  "productDescription": "Microwave with Sensor Cooking",
+  "productBrand": "LG",
+  "productUPC": "m8",
+  "productType": "Microwave"
+},{
+  "_id": {
+    "$oid": "5f930f79b97f4d336ca72c69"
+  },
+  "productId": "AF8ABC",
+  "productName": "NS-AF32DBK9",
+  "productPrice": 50.59,
+  "productDescription": "3.4qt Digital Air Fryer",
+  "productBrand": "Insignia",
+  "productUPC": "af8",
+  "productType": "Air Fryer"
+},{
+  "_id": {
+    "$oid": "5f930fc2b97f4d336ca72c6a"
+  },
+  "productId": "S8ABC",
+  "productName": "NE63T8311SG",
+  "productPrice": 1299.49,
+  "productDescription": "6.3 Cu.Ft. Electric Range with Wi-Fi",
+  "productBrand": "Samsung",
+  "productUPC": "s8",
+  "productType": "Stove"
+},{
+  "_id": {
+    "$oid": "5f931032b97f4d336ca72c6b"
+  },
+  "productId": "B8ABC",
+  "productName": "BLSTMEGG00000",
+  "productPrice": 49.49,
+  "productDescription": "Series 8 Speed Blender with Duralast",
+  "productBrand": "Oster",
+  "productUPC": "b8",
+  "productType": "Blender"
+},{
+  "_id": {
+    "$oid": "5f931072b97f4d336ca72c6c"
+  },
+  "productId": "C8ABC",
+  "productName": "CE251",
+  "productPrice": 79.49,
+  "productDescription": "12-Cup Coffee Maker",
+  "productBrand": "Ninja",
+  "productUPC": "c8",
+  "productType": "Coffee Maker"
+},{
+  "_id": {
+    "$oid": "5f9310b6b97f4d336ca72c6d"
+  },
+  "productId": "R9ABC",
+  "productName": "WRS571CIHV",
+  "productPrice": 1899.49,
+  "productDescription": "20.6 Cu.Ft. Counter-Depth Refrigerator",
+  "productBrand": "Whirlpool",
+  "productUPC": "r9",
+  "productType": "Refrigerator"
+},{
+  "_id": {
+    "$oid": "5f9310f7b97f4d336ca72c6e"
+  },
+  "productId": "M9ABC",
+  "productName": "ME21R7051SS",
+  "productPrice": 350.99,
+  "productDescription": "2.1 Cu.Ft. with Sensor Cooking",
+  "productBrand": "Samsung",
+  "productUPC": "m9",
+  "productType": "Microwave"
+},{
+  "_id": {
+    "$oid": "5f93114bb97f4d336ca72c6f"
+  },
+  "productId": "AF9ABC",
+  "productName": "OA-60",
+  "productPrice": 219.59,
+  "productDescription": "Air Fryer Toaster Oven",
+  "productBrand": "Cuisinart",
+  "productUPC": "af9",
+  "productType": "Air Fryer"
+},{
+  "_id": {
+    "$oid": "5f9311a7b97f4d336ca72c70"
+  },
+  "productId": "S9ABC",
+  "productName": "KSEG700ESS",
+  "productPrice": 1999.49,
+  "productDescription": "6.4 Cu.Ft. Self-Cleaning Range",
+  "productBrand": "KitchenAid",
+  "productUPC": "s9",
+  "productType": "Stove"
+},{
+  "_id": {
+    "$oid": "5f931201b97f4d336ca72c71"
+  },
+  "productId": "B9ABC",
+  "productName": "66791",
+  "productPrice": 549.49,
+  "productDescription": "Professional Series 10-Speed Blender",
+  "productBrand": "Vitamix",
+  "productUPC": "b9",
+  "productType": "Blender"
+},{
+  "_id": {
+    "$oid": "5f931248b97f4d336ca72c72"
+  },
+  "productId": "C9ABC",
+  "productName": "DCC-3200P1",
+  "productPrice": 49.49,
+  "productDescription": "14 Cup Programmable Coffeemaker",
+  "productBrand": "Cuisinart",
+  "productUPC": "c9",
+  "productType": "Coffee Maker"
+}]

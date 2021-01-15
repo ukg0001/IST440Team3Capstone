@@ -1,0 +1,38 @@
+extends ../layout 
+
+block content
+  h1 Emerald Air Fryers
+  hr
+  dropdown(class=(title == 'Product Viewing') ? 'active': undefined).nav-item
+    a.dropdown-toggle.nav-link(href='#', data-toggle='dropdown') Brand
+    div.dropdown-menu 
+      a.dropdown-item(href='/airFryers/bella') Bella
+      div.dropdown-divider
+      a.dropdown-item(href='/airFryers/cosori') Cosori
+      div.dropdown-divider
+      a.dropdown-item(href='/airFryers/cuisinart') Cuisinart
+      div.dropdown-divider
+      a.dropdown-item(href='/airFryers/emerald') Emerald
+      div.dropdown-divider
+      a.dropdown-item(href='/airFryers/faberware') Faberware
+      div.dropdown-divider
+      a.dropdown-item(href='/airFryers/insignia') Insignia
+      div.dropdown-divider
+      a.dropdown-item(href='/airFryers/ninja') Ninja
+      div.dropdown-divider
+      a.dropdown-item(href='/airFryers/Salter') Salter
+        
+  .row
+   each product in products
+    .col-md-4
+     p
+     a(href="../images/" + product.productUPC + ".png" alt=product.productUPC target="new")
+      img(src="../images/" + product.productUPC+ ".png" alt=product.productUPC height=250, width=250)
+     p
+     p='Model: #' + product.productName
+     p='Brand: ' + product.productBrand
+     p='Price: $' + product.productPrice
+     p='Description: ' + product.productDescription
+     p
+     a.btn.btn-raised(href='/cart/addItem?productName='+product.productName + '&productType='+product.productType + '&productBrand=' + product.productBrand + '&productPrice=' + product.productPrice + '&productUPC=' + product.productUPC, role='button') Add to Shopping Cart »
+     p

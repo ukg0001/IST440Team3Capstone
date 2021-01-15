@@ -1,0 +1,102 @@
+extends ../layout
+
+block content
+  .pb-2.mt-2.mb-4.border-bottom
+    h3 Profile Information
+
+  form(action='/account/profile', method='POST')
+    input(type='hidden', name='_csrf', value=_csrf)
+    .form-group.row
+      label.col-md-3.col-form-label.font-weight-bold.text-right(for='email') Email
+      .col-md-7
+        input.form-control(type='email', name='email', id='email', value=user.email, autocomplete='email', required)
+      .offset-sm-3.col-md-7.pl-3
+        if user.emailVerified
+          .text-success.font-italic
+            | Verified
+        else
+          .text-danger.font-italic
+            | Unverified: &nbsp;
+            a(href='/account/verify') Send verification email
+    .form-group.row
+      label.col-md-3.col-form-label.font-weight-bold.text-right(for='name') Name
+      .col-md-7
+        input.form-control(type='text', name='name', id='name', value=user.profile.name, autocomplete='name', required)
+    .form-group.row
+      label.col-md-3.col-form-label.font-weight-bold.text-right(for='accountID') Account ID
+      .col-md-7
+        input.form-control(type='number', name='accountID', id='accountID', value=user.accountID, autocomplete='accountID', readonly=true)
+    .form-group.row
+      label.col-md-3.col-form-label.font-weight-bold.text-right(for='phoneNumber') Phone Number
+      .col-md-7
+        input.form-control(type='number', name='phoneNumber', id='phoneNumber',  value=user.profile.phoneNumber, autocomplete='phoneNumber', required)
+    h3 Billing Information
+    hr
+    .form-group.row
+      label.col-md-3.col-form-label.font-weight-bold.text-right(for='billingAddress') Billing Address
+      .col-md-7
+        input.form-control(type='text', name='billingAddress', id='address', value=user.profile.billingAddress, placeholder='Billing Address', autocomplete) 
+      .col-md-3
+      label.col-md-3.col-form-label.font-weight-bold.text-left(for='billingCity') City
+        input.form-control(type='text', name='billingCity', id='city', value=user.profile.billingCity, placeholder='City', autocomplete)
+      label.col-md-2.col-form-label.font-weight-bold.text-left(for='state') State
+        input.form-control(type='text', name='billingState', id='billingState', value=user.profile.billingState, placeholder='State', autocomplete)
+      label.col-md-2.col-form-label.font-weight-bold.text-left(for='zip') Zip
+        input.form-control(type='text', name='billingZip', id='zip', value=user.profile.billingZip, placeholder='Zip', autocomplete) 
+    h3 Shipping Information
+    hr
+    .form-group.row
+      label.col-md-3.col-form-label.font-weight-bold.text-right(for='shippingAddress') Shipping Address
+      .col-md-7
+        input.form-control(type='text', name='shippingAddress', id='address', value=user.profile.shippingAddress, placeholder='Shipping Address', autocomplete) 
+      .col-md-3
+      label.col-md-3.col-form-label.font-weight-bold.text-left(for='shippingCity') City
+        input.form-control(type='text', name='shippingCity', id='city', value=user.profile.shippingCity, placeholder='City', autocomplete)
+      label.col-md-2.col-form-label.font-weight-bold.text-left(for='state') State
+        input.form-control(type='text', name='shippingState', id='shippingState', value=user.profile.shippingState, placeholder='State', autocomplete)
+      label.col-md-2.col-form-label.font-weight-bold.text-left(for='zip') Zip
+        input.form-control(type='text', name='shippingZip', id='zip', value=user.profile.shippingZip, placeholder='Zip', autocomplete)    
+    //- .form-group.row
+    //-   label.col-md-3.col-form-label.font-weight-bold.text-right(for='address') Address
+    //-   .col-md-7
+    //-     input.form-control(type='address', name='address', id='address', autocomplete='address', required)
+    //- .form-group.row
+    //-   label.col-md-3.col-form-label.font-weight-bold.text-right(for='billing address') Billing Address
+    //-   .col-md-7
+    //-     input.form-control(type='billing address', name='billing address', id='billing address', autocomplete='billing address')
+    .form-group
+      .offset-sm-3.col-md-7.pl-2
+        button.btn.btn.btn-primary(type='submit')
+          i.fas.fa-pencil-alt.fa-sm
+          | Update Profile
+
+  .pb-2.mt-2.mb-4.border-bottom
+    h3 Change Password
+
+  form(action='/account/password', method='POST')
+    input(type='hidden', name='_csrf', value=_csrf)
+    .form-group.row
+      label.col-md-3.col-form-label.font-weight-bold.text-right(for='password') New Password
+      .col-md-7
+        input.form-control(type='password', name='password', id='password', autocomplete='new-password', minlength='8', required)
+    .form-group.row
+      label.col-md-3.col-form-label.font-weight-bold.text-right(for='confirmPassword') Confirm Password
+      .col-md-7
+        input.form-control(type='password', name='confirmPassword', id='confirmPassword', autocomplete='new-password', minlength='8', required)
+    .form-group
+      .offset-sm-3.col-md-7.pl-2
+        button.btn.btn-primary(type='submit')
+          i.fas.fa-lock.fa-sm
+          | Change Password
+
+  .pb-2.mt-2.mb-4.border-bottom
+    h3 Delete Account
+
+  form(action='/account/delete', method='POST', onsubmit="return confirm('Are you sure you want to delete your account?');")
+    .form-group
+      p.offset-sm-3.col-md-7.pl-2 You can delete your account, but keep in mind this action is irreversible.
+      input(type='hidden', name='_csrf', value=_csrf)
+      .offset-sm-3.col-md-7.pl-2
+        button.btn.btn-danger(type='submit')
+          i.fas.fa-trash-alt.fa-sm
+          | Delete my account
